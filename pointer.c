@@ -1,3 +1,8 @@
+#include<stdio.>
+
+void addOne(int* ptr) {
+  (*ptr)++; // adding 1 to *ptr
+}
 
 int main()
 {
@@ -8,3 +13,7 @@ int main()
   printf("%d", *p); // 11
   return 0;
 }
+
+
+
+
